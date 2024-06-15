@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <RestorePackagesPath>..\packages</RestorePackagesPath>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems> <!-- Add this line -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.3" /> <!-- Update the version as needed -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.cs" /> <!-- Add explicit Compile items if needed -->
+  </ItemGroup>
+</Project>
+
+
+
+
+
+
+
+
+
+
+
